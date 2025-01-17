@@ -29,11 +29,55 @@ public class RobotInstructions  {
 		 * You will add instructions at the end of the code to cause the support.robot to move
 		 * as you desire.
 		 */
-		robot.forward(60);
-		robot.turnLeft(90);
-		robot.forward(23);
-		robot.turnRight(90);
-		robot.forward(80);
+		//Stem
+		robot.forward(300);
+		//First Leaf
+		robot.turnRight(160);
+		robot.forward(100);
+		robot.turnLeft(45);
+		robot.forward(15);
+		robot.turnLeft(45);
+		robot.forward(30);
+		robot.turnLeft(45);
+		robot.forward(15);
+		robot.turnLeft(68);
+		robot.forward(115);
+		//Second leaf
+		robot.turnRight(110);
+		robot.forward(100);
+		robot.turnLeft(45);
+		robot.forward(15);
+		robot.turnLeft(45);
+		robot.forward(30);
+		robot.turnLeft(45);
+		robot.forward(15);
+		robot.turnLeft(70);
+		robot.forward(112);
+		//Third Leaf
+		robot.turnRight(110);
+		robot.forward(100);
+		robot.turnLeft(45);
+		robot.forward(15);
+		robot.turnLeft(45);
+		robot.forward(30);
+		robot.turnLeft(45);
+		robot.forward(15);
+		robot.turnLeft(72);
+		robot.forward(105);
+		//Fourth Leaf
+		robot.turnRight(110);
+		robot.forward(100);
+		robot.turnLeft(45);
+		robot.forward(15);
+		robot.turnLeft(45);
+		robot.forward(30);
+		robot.turnLeft(45);
+		robot.forward(15);
+		robot.turnLeft(68);
+		robot.forward(110);
+		//Going back to better see flower
+		robot.turnRight(150);
+		robot.forward(150);
 	}
 
 }
